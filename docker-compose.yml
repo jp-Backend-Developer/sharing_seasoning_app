@@ -4,6 +4,7 @@ services:
     build: ./docker/php
     volumes:
       - ./backend:/work
+
   web:
     image: nginx:1.20-alpine
     ports:
